@@ -1,0 +1,10 @@
+.navbar {
+  background-color: aqua;
+  width: 100vw !important;
+}
+
+.navbar-menu {
+  display: flex !important;
+  flex-direction: row;
+
+}

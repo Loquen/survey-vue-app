@@ -70,3 +70,12 @@ const surveys = [{
       }, 300)
     })
   }
+
+  export function postNewSurvey(survey) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        console.log('Saving survey ...', survey)
+        resolve()
+      },300)
+    })
+  }
